@@ -1,0 +1,68 @@
+#pagetop {
+  margin-bottom: 3em;
+  width: 100%;
+}
+#pagetop, #about, #team {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.team_info:nth-child(2n+1) {
+  border-right: 1px solid #CCCCCC;
+}
+.team_info:nth-child(n+3) {
+  border-top: 1px solid #CCCCCC;
+  padding-bottom: 1.5em;
+}
+.app_logo {
+  text-align: center;
+}
+.teams_content {
+  box-sizing: border-box;
+  text-align: center;
+}
+.about {
+  border-top: 1px solid #EEEEEE;
+}
+.about_content {
+  border-top: 1px solid #CCCCCC;
+  margin-bottom: 5em;
+}
+.appname {
+  font-weight: bold;
+}
+body {
+  text-align: center;
+  background-color: #F5F5F5;
+}
+nav {
+  padding-bottom: 3em;
+}
+#content {
+  text-align: left;
+}
+.team_name {
+  margin-bottom: 0;
+}
+.appname {
+  margin-top: .5em;
+}
+#header {
+  background-color: rgba(60, 150, 60, 0.8);
+  position: fixed;
+}
+#header>ul>li:nth-child(2) {
+  border-left: 1px solid #EEEEEE !important;
+  border-right: 1px solid #EEEEEE !important;
+}
+.header_link:hover {
+  background-color: #77FF77 !important;
+}
+#header a, #header a:visited {
+  color: white !important;
+}
+#footer {
+  margin: 3em 0 1em 0;
+}
+a {
+  color: none;
+}
