@@ -6,13 +6,18 @@ body {
   margin-top: 5em;
   width: 100%;
 }
-a {
+p a {
   padding: 1em 2em 1em 2em;
   border: 1px solid #333333;
   text-decoration: none;
   font-size: large;
   color: white;
   border-radius: 10px;
+}
+footer {
+  position: absolute;
+  top: 95%;
+  left: 50%;
 }
 .to2012 {
   background: #6666FF;
