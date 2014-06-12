@@ -1,0 +1,148 @@
+html {
+	background-color: #FFF;
+	font-family:'Lucida Grande', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'sans-serif';
+}
+body {
+	background: none repeat scroll 0 0 #FFF;
+	width: 960px;
+	margin: 0px auto;
+}
+section {
+	background-color: #FFF;
+	display: block;
+	padding: 20px;
+}
+footer {
+	background-color: #FFF;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	font-size: 14px;
+	font-weight: bold;
+}
+header {
+	display: block;
+}
+hgroup {
+	text-align: center;
+	background-color: #FFF;
+	margin-top: 20px;
+}
+footer {
+	clear: both !important;
+	text-align: center;
+}
+#menu {
+	width: 960px;
+	padding: 0px;
+	margin: 0px auto;
+	list-style-type: none;
+}
+#menu li {
+	width: 318px;
+	float: left;
+	margin: 0px;
+	text-align: center;
+	cursor: pointer;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 0px;
+	text-decoration: none;
+	display: block;
+	border-top: 8px solid #708090;
+	border-bottom: 8px solid #708090;
+}
+#menu li:first-child {
+	width: 316px;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+#menu li:last-child {
+	width: 316px;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+#menu li a {
+	width: auto;
+	color: #EEE;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+}
+#menu li:hover {
+	color: #CCC;
+}
+.bar {
+	display: block;
+	width: 90%;
+	height: 1px;
+	opacity: 0.2;
+	background-color: gray;
+	border: 0;
+	clear: both;
+}
+#pic1 {
+	margin: 20px;
+	margin-left: 0px;
+	margin-right: 19px;
+	width: 294px;
+	padding-bottom: 30px;
+	float: left;
+}
+#pic2 {
+	margin: 20px 0px;
+	width: 294px;
+	padding-bottom: 30px;
+	float: left;
+}
+#pic3 {
+	margin: 20px;
+	margin-left: 19px;
+	margin-right: 0px;
+	width: 294px;
+	padding-bottom: 30px;
+	float: left;
+}
+.team_info {
+	margin: 20px;
+	border-collapse: collapse;
+}
+.team_info th {
+	text-align: left;
+	width: 120px;
+}
+.headerMenu {
+   background: #708090;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 9999;
+   box-shadow: 0px 2px 4px #AAA;
+}
+.headerFixed {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+#social_box {
+	background: #AAA;
+	width: 70px;
+	padding: 10px;
+	margin-left: -110px;
+	text-align: center;
+	bottom: 0px;
+	position: fixed;
+	list-style-type: none;
+	z-index: 999;
+}
+.btn_top {
+	cursor: pointer;
+
+}
+.team {
+	padding: 30px 0px;
+}
