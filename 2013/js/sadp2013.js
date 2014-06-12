@@ -10,7 +10,7 @@ var Team = function(name, appname, description, blog, appurl, logo_path, os) {
 
 var ANDROID = 'https://play.google.com/store/apps/details?id=';
 var IOS = 'https://itunes.apple.com/us/app/';
-var IMG_PATH = './sadp2013_img/';
+var IMG_PATH = './img/';
 
 var teamCtrl = function($scope) {
   $scope.teams = [
