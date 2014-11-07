@@ -17,7 +17,7 @@ var teamCtrl = function($scope) {
     new Team("ぼっちーむ", "ぼっちめし図鑑", "ぼっちめしを支援するアプリです", "http://botteam.hatenadiary.jp/", ANDROID + "kom.botch.rasaki", IMG_PATH + 'botch_logo.png', 'android'),
     new Team("部屋とＹシャツとY", "擬音祭", "楽しく擬音語を勉強するアプリです", "http://team-4y.hatenablog.com/", IOS + "ni-yin-ji/id765223887", IMG_PATH + 'gion_logo.jpg', 'ios'),
     new Team("上野パンダ", "クラスナビ", "社情のポータルアプリです", "http://ameblo.jp/sadp2013/", ANDROID + "com.yaunix.test.sadp", IMG_PATH + 'classnav_logo.png', 'stopped'),
-    new Team("AppFountain", "AppFountain", "アプリの知恵袋です", "http://appfountain.hatenablog.jp/", ANDROID + "com.appfountain", IMG_PATH + 'appfountain_logo.png', 'android'),
+    new Team("AppFountain", "AppFountain", "アプリの知恵袋です", "http://appfountain.hatenablog.jp/", ANDROID + "com.appfountain", IMG_PATH + 'appfountain_logo.png', 'stopped'),
     new Team("ソシャレコ！", "ソシャレコ", "声を投稿するSNSアプリです", "http://shajo-benriya.hatenablog.com/",  IOS + "soshareko!/id768606311", IMG_PATH + 'social_reco_logo.jpg', 'ios'),
     new Team("garakeee", "pregniary", "妊娠中の彼女と彼氏をつなぐアプリです", "http://garakeee.hatenablog.com/", ANDROID + "jp.gr.java_conf.pregniary", IMG_PATH + 'pregniary_logo.png', 'android')
   ];
