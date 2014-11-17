@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=900px, initial-scale=1, maximum-scale=2">
     <title>2013年度SADP</title>
   </head>
-  <body>
+  <body ng-controller="ScrollController">
     <nav role="navigation">
       <div id="header" class="pure-menu pure-menu-open pure-menu-horizontal">
         <ul>
-          <li><a class="header_link" href="#pagetop">Page Top</a></li>
-          <li><a class="header_link" href="#about">About</a></li>
-          <li><a class="header_link" href="#team">Team</a></li>
+          <li><a ng-click="gotoAnchor('pagetop')" class="header_link" href="#pagetop">Page Top</a></li>
+          <li><a ng-click="gotoAnchor('about')" class="header_link" href="#about">About</a></li>
+          <li><a ng-click="gotoAnchor('team')" class="header_link" href="#team">Team</a></li>
         </ul>
       </div>
     </nav>
@@ -62,7 +62,7 @@
             </ul>
           </div>
         </article>
-        <div ng-controller="teamCtrl">
+        <div ng-controller="TeamController">
           <h2 id="team">Teams & Apps</h2>
           <article class="teams_content">
             <div class="team_info pure-u-2-5" ng-repeat="team in teams">
